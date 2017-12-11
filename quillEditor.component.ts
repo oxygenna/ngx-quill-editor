@@ -18,10 +18,7 @@ const Quill = require('quill');
   selector: 'quill-editor',
   template: `<div class="quill-editor"></div>`,
   styleUrls: [
-    './quillEditor.component.css',
-    '../quill/dist/quill.core.css',
-    '../quill/dist/quill.snow.css',
-    '../quill/dist/quill.bubble.css'
+    './quillEditor.component.css'
   ],
   providers: [{
     provide: NG_VALUE_ACCESSOR,
